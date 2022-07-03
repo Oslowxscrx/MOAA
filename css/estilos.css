@@ -41,3 +41,19 @@ a {
   color: rgb(197, 199, 201);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+.animacion {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 200%
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
