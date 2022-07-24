@@ -88,13 +88,12 @@
   }
   .mapa{
     padding-top: 20px;
-    width: 900px;
     height: 362px;
-    background-color:rgb(58, 61, 61);  
+    background-color:rgb(63, 0, 0);  
 }
 .formulario{
   
-  background: linear-gradient(#820dcf, #6a0e6d, rgb(56, 6, 66));
+  background: linear-gradient(#38363a, #272727, rgb(0, 0, 0));
 }
 .conocenos{
   width: 800px;
@@ -108,4 +107,23 @@
 }
 .altura{
 padding-top: 40px;
+}
+.marcas{
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.icono{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.espaciop{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.login{
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.registro{
+  background: linear-gradient(#c7c3ca, #918c8c, rgb(92, 92, 92));
 }
