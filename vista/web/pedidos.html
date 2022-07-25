@@ -39,40 +39,87 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="/vista/web/pedidos.html">Pedido</a>
+                        <a class="nav-link text-light" href="/vista/web/servicios.html">Pedido</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="/vista/web/catalogo.html">Catalogo</a>
+                        <a class="nav-link text-light" href="/vista/web/conocenos.html">Catalogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="/vista/web/index.html">Salir</a>
+                        <a class="nav-link text-light" href="/vista/web/contactanos.html">Salir</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Dash -->
-    <div class="container">
-        <div class="row altura">
-            <div class="col mapa"><center><img src="/img/t-shirt/t-shirt12.png" alt="" width="350px" height="320"></div></center>
-
-            <div class="col">
-                <div class="card dash">
-                    <div class="card-header">
-                       <h3>Producto</h3>
+    <!-- pedido -->
+    <center>
+        <div class="container">
+            <br>
+            <div class="row login">
+                <div class="col-md-5">
+                    <img src="/img/t-shirt/t-shirt12.png" alt="" width="350" height="330px">
                     </div>
-                    <div class="card-body">
-                        <p> <em>Camiseta:</em> Euphoria</p>
-                        <p> <em>Tallas:</em> L, S, M, X, XL, XXL</p>
-                        <P> <em>Precio:</em> 25,99$</P>
-                        <hr>
-                       <a href="/vista/web/pedidos.html"><button type="button" class="btn btn-primary">Camprar</button></a> 
-                        <p> buscas algo mas?<a href="/vista/web/catalogo.html"> Nuestro catalogo</a></p>
+            <div class="col-md-5">
+                    <div class="card pedido">
+                        <div class="card-body dash">
+                            <div>
+                                <h2>Orden</h2>
+                            </div>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Producto:</label>
+                                <select name="producto">
+                                    <option value="jean">joggers</option>
+                                    <option value="The shirt">the shirt</option>
+                                    <option value="hoodies">hoodies</option>
+                                    <option value="accesorios">accesorios</option>
+                                    <option value="jordan" selected>jordan</option>
+                                    <option value="converse">converse</option>
+                                    <option value="vans">vans</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Cantidad:</label>
+                                <select name="cantidad">
+                                    <option value="1">1</option>
+                                    <option value="2" selected>2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5" selected>5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8" selected>8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+    
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Tallas:</label>
+                                <select name="marca">
+                                    <option value="l">L</option>
+                                    <option value="Esika" selected>M</option>
+                                    <option value="s">S</option>
+                                    <option value="m">M</option>
+                                    <option value="x">X</option>
+                                    <option value="xl">XL</option>
+                                    <option value="xxl">XXL</option>
+                                </select>
+                            </div>
+    
+    
+                            <div class="mb-3">
+                                <button class="btn btn-primary">Comprar</button>
+                                <p><a href="/vista/usuarios/dashboard.html">Cancelar</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                </head>
+    
             </div>
         </div>
-    </div>
+    </center>
     <!-- pie de pagina -->
     <br>
     <center>
