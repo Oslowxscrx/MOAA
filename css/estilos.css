@@ -97,7 +97,12 @@
 }
 .conocenos{
   width: 800px;
-  height: 670px;
+  height: 390px;
+  background-color:rgb(58, 61, 61); 
+}
+.servicios{
+  width: 800px;
+  height: 380px;
   background-color:rgb(58, 61, 61); 
 }
 .letracono{
@@ -129,4 +134,10 @@ padding-top: 40px;
 }
 .dash{
   background: linear-gradient(#4e84a8, #888aa0);
+}
+
+.carrito{
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  width: 100px;
 }
